@@ -123,7 +123,11 @@ for (const dir of skillDirs) {
   if (name !== dir) err(`${base}/SKILL.md: name '${name}' != folder '${dir}'`);
   const desc = readDescription(fm);
   if (!desc) err(`${base}/SKILL.md: missing description`);
-  else if (desc.length > 1024) err(`${base}/SKILL.md: description is ${desc.length} chars (max 1024)`);
+  else if (desc.length > 200) err(`${base}/SKILL.md: description is ${desc.length} chars (max 200, the Claude.ai upload limit)`);
+  const ALLOWED_KEYS = new Set(["name", "description", "license", "allowed-tools", "compatibility", "metadata"]);
+  for (const k of [...fm.matchAll(/^([A-Za-z][\w-]*):/gm)].map((m) => m[1]))
+    if (!ALLOWED_KEYS.has(k)) err(`${base}/SKILL.md: top-level frontmatter key '${k}' is rejected by Claude.ai uploads`);
+  if (desc && /[<>]/.test(desc)) err(`${base}/SKILL.md: description must not contain < or >`);
   if (!/^\s{2}author:\s*GrowthStackr/m.test(fm)) err(`${base}/SKILL.md: metadata.author missing/wrong`);
   if (!/^\s{2}pack:\s*growth-os-lite\s*$/m.test(fm)) err(`${base}/SKILL.md: metadata.pack must be growth-os-lite`);
   if (!new RegExp(`^\\s{2}version:\\s*["']?${VERSION.replace(/\./g, "\\.")}["']?\\s*$`, "m").test(fm))

@@ -1,15 +1,6 @@
 ---
 name: copywriting
-description: >
-  Writes conversion copy in the buyer's own words — VoC-driven peer voice instead of
-  agency-speak. The central copy engine: landing pages, ads, emails, social posts,
-  sales scripts, CTAs and objection handlers. Draws on voice-of-customer.md (or real
-  customer quotes you paste), applies the NNGroup tone framework and a mandatory
-  humanizer pass. Use when user says "skriv copy", "write copy",
-  "skriv en rubrik", "write a headline", "skriv en annons", "write an ad",
-  "skriv ett säljmail", "write a sales email", "använd kundens ord",
-  "use the customer's own words", "skriv om vår startsida", "skriv copy till landningssidan",
-  "rewrite our homepage", "write landing page copy".
+description: "Conversion copy in the buyer's own words: pages, ads, emails, CTAs. Use for: skriv copy, skriv om vår startsida, skriv en rubrik, write copy, write landing page copy, write a headline."
 metadata:
   author: GrowthStackr
   version: 1.0.0

@@ -1,15 +1,6 @@
 ---
 name: brand-offer
-description: >
-  Designs a complete offer using the Alex Hormozi $100M Offers method: value
-  equation, offer stack and pricing, bonuses, scarcity, urgency, guarantees
-  designed from real customer objections, and offer naming. Interview-driven;
-  inherits icp.md and voice-of-customer.md and outputs a filled-in offer.md
-  context file that copy, CRO, lead magnets, and ads inherit. Use when user
-  says "designa vårt erbjudande", "design our offer", "bygg ett Grand Slam
-  Offer", "build the offer", "paketera erbjudandet", "package our offer",
-  "value equation", "offer stack", "sätt garantier och pris",
-  "create offer.md".
+description: "Designs offer.md with the $100M Offers method: value stack, guarantees, pricing logic, name. Use for: designa vårt erbjudande, paketera erbjudandet, design our offer."
 metadata:
   author: GrowthStackr
   version: 1.0.0

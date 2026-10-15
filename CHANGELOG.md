@@ -21,5 +21,7 @@ First public release of Growth OS Lite, the free edition of the Growth OS Skills
 - One zip per skill plus `growth-os-lite-all.zip` on every release.
 - Validator (`.github/scripts/validate.mjs`) enforcing standalone folders, resolvable references,
   the permission step, and the inventory.
+- Skill descriptions kept at 200 characters or fewer (the Claude.ai upload limit), with Swedish
+  and English trigger phrases.
 - Templates for the four context files in `templates/`.
 - Guide for Claude.ai and Claude Desktop: `docs/claude-ai-guide.md`.

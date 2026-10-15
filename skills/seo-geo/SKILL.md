@@ -1,14 +1,6 @@
 ---
 name: seo-geo
-description: >
-  Optimize content for AI Overviews, ChatGPT web search, Perplexity, and other
-  AI-powered search experiences. Generative Engine Optimization (GEO/AIO)
-  analysis covering brand mention signals, AI crawler accessibility, llms.txt
-  compliance, passage-level citability scoring, information gain, and
-  platform-specific optimization. Use when user says "AI Overviews", "GEO",
-  "AIO", "AI search", "LLM optimization", "Perplexity", "AI citations",
-  "ChatGPT search", "AI visibility", "AI-synlighet", "synas i AI-svar",
-  "optimera för AI-sök", "bli citerad av AI", or "GEO-analys".
+description: "Optimizes pages for AI search (ChatGPT, Perplexity, AI Overviews) and checks AI crawler access. Use for: optimera för AI-sök, GEO, synas i ChatGPT, AI search optimization."
 license: MIT
 metadata:
   author: GrowthStackr

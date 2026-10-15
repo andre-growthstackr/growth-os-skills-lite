@@ -1,15 +1,6 @@
 ---
 name: icp-builder
-description: >
-  Guide the user through building or formalizing an Ideal Customer Profile (ICP) — a
-  structured interview covering four layers (firmographics, behaviors, context, emotional),
-  green/yellow/red account tiering, and TAM/SAM market math with a 90-day daily lead
-  target. Delivers icp.md, the context file every other Growth OS skill inherits. Works
-  from scratch, from a CRM export or customer data, or by researching the company first. Use when
-  user says "bygg min ICP", "idealkundsprofil", "idealkund", "vem ska vi sälja till",
-  "definiera målgruppen", "build my ICP", "ideal customer profile", "who should we
-  target", "customer segmentation", "TAM SAM", or uploads CRM exports, customer lists,
-  win/loss reports, or an existing ICP doc.
+description: "Builds icp.md: tiers, firmographics, triggers and TAM/SAM via interview or CRM export. Use for: bygg min ICP, idealkundsprofil, vem ska vi sälja till, build my ICP, ideal customer profile."
 metadata:
   author: GrowthStackr
   version: 1.0.0

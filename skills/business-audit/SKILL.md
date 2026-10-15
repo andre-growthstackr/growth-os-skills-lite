@@ -1,15 +1,6 @@
 ---
 name: business-audit
-description: >
-  Full business audit and discovery interview. Researches the company website
-  with web fetch, pre-fills verifiable facts, then reverse-prompts the
-  user one question at a time until 95% sure about services, offer, pricing,
-  goals, channels, team, and metrics. Outputs a completed business-profile.md —
-  the factual baseline every other Growth OS skill inherits. Use when user says
-  "gör en business audit", "kartlägg mitt företag", "affärsgenomgång",
-  "intervjua mig om mitt företag", "skapa min business profile", "business
-  audit", "discovery interview", "map my business", "build my business
-  profile", "analyze my company".
+description: "Website research + interview that creates business-profile.md, the base every skill reads. Use for: gör en business audit, kartlägg mitt företag, business audit, map my business."
 metadata:
   author: GrowthStackr
   version: 1.0.0

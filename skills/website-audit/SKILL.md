@@ -1,15 +1,6 @@
 ---
 name: website-audit
-description: >
-  Holistic website audit across four dimensions — technical health, SEO/AI-search
-  readiness, design/UX, and conversion — merging crawl-based SEO auditing, a
-  five-dimension design diagnostic, and landing-page conversion analysis with
-  the friction model (interactive/cognitive/emotional). Produces a scored audit
-  report plus a prioritized action plan (impact x effort). Scope one dimension or
-  run all four. Use when user says "granska min hemsida", "audita min webbplats",
-  "webbplatsanalys", "hälsokoll på sajten",
-  "audit my website", "website audit", "site health check", "review my site",
-  "check my whole site". For a single page that is not converting, use cro-audit.
+description: "Whole-site audit: technical, SEO, design/UX and conversion, with a prioritized plan. Use for: granska min hemsida, webbplatsanalys, hälsokoll på sajten, audit my website."
 metadata:
   author: GrowthStackr
   version: 1.0.0

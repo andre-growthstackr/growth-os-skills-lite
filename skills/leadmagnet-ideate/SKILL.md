@@ -1,14 +1,6 @@
 ---
 name: leadmagnet-ideate
-description: >
-  Generates ranked lead magnet concepts grounded in ICP pains, live research of
-  proven lead magnets in the wild, and demand validation. Each concept gets a
-  format (interactive beats static), funnel placement (TOF/MOF/BOF), and a
-  qualification-by-design plan for what segmentation data it captures.
-  Use when user says "lead magnet ideas", "idéer på lead magnets", "idéer på leadmagneter", "what should I
-  give away for emails", "vad ska vi ge bort för att fånga leads", "brainstorm
-  lead magnets", "hitta på en lead magnet", "gated content ideas", "freebie ideas",
-  "kalkylator eller quiz som lead magnet", "ideate lead magnets".
+description: "Ranked lead magnet ideas from ICP pains and proven examples. Use for: idéer på leadmagneter, vad ska vi ge bort för leads, lead magnet ideas, brainstorm lead magnets."
 metadata:
   author: GrowthStackr
   version: 1.0.0

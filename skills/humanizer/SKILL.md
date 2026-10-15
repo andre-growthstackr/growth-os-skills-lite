@@ -1,17 +1,6 @@
 ---
 name: humanizer
-description: >
-  Remove signs of AI-generated writing from any text so it reads natural and
-  human-written. Detects and fixes 33 documented patterns from Wikipedia's
-  Signs of AI writing guide: inflated significance, promotional language,
-  superficial -ing analyses, vague attributions, em dash overuse, rule of
-  three, AI vocabulary, negative parallelisms, filler phrases, and more.
-  Matches the author's voice from a writing sample and applies the brand's
-  banned-word rules when available. Works on English and Swedish text.
-  Use when user says "humanisera", "humanize this", "ta bort AI-känslan",
-  "make this sound human", "få texten att låta mänsklig", "remove AI tells",
-  "det låter AI-skrivet", "sounds like AI", "avslöja AI-mönster",
-  "make it sound less like ChatGPT".
+description: "Rewrites text so it stops sounding AI-written, without changing facts. Use for: låter AI, gör texten mänskligare, humanisera texten, humanize this, sounds like AI, remove AI tells."
 metadata:
   author: GrowthStackr
   version: 1.0.0

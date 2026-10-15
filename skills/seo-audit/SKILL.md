@@ -1,14 +1,6 @@
 ---
 name: seo-audit
-description: >
-  Full website SEO audit. Reviews a prioritized sample of pages (or an uploaded
-  crawl export), detects the business type, runs specialist passes for
-  technical SEO, on-page, content and E-E-A-T, schema, Core Web Vitals, images,
-  AI search readiness and, when relevant, local and e-commerce SEO, and
-  generates an SEO Health Score (0-100) with a prioritized action plan. Use
-  when user says "audit my site", "full SEO check", "SEO audit", "analyze my
-  site", "website health check", "SEO-granskning", "granska min sajt", "gör en
-  SEO-audit", "analysera min webbplats", "hur mår min sajt".
+description: "SEO audit with a 0–100 SEO Health Score and prioritized action plan. Use for: gör en SEO-audit, SEO-granskning, granska min sajt, SEO audit, full SEO check, audit my site."
 license: MIT
 metadata:
   author: GrowthStackr

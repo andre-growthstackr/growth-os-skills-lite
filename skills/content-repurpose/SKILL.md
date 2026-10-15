@@ -1,15 +1,6 @@
 ---
 name: content-repurpose
-description: >
-  Turns one piece of content into many by adapting it across content types — LinkedIn
-  post, X thread, newsletter, email, short-video script, longform video script,
-  carousel slide text, blog — never channel-first. Preserves the core message while
-  adapting format, length, and platform norms, keeps the voice VoC-driven with the
-  /copywriting principles, and runs a humanizer pass. Human in the loop twice: approve
-  the repurpose plan before production, approve drafts before distribution. Use when
-  user says "repurpose", "repurpose content", "turn this blog into", "atomize content",
-  "spin this into a thread", "återanvänd innehåll", "gör om bloggen till", "dela upp
-  innehållet", "gör en video av inlägget", "skriv om till nyhetsbrev".
+description: "Turns one piece into many: LinkedIn, newsletter, video script, carousel text, email. Use for: gör om till fler format, återanvänd innehållet, repurpose this, turn this into posts."
 metadata:
   author: GrowthStackr
   version: 1.0.0

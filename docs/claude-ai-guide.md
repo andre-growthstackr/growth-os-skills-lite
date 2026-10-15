@@ -106,10 +106,8 @@ skill scanning, if enabled, reviews each uploaded skill.
 
 ## Known issues
 
-- **Description length.** The Help Center lists a 200-character limit for a skill's description,
-  while the open Agent Skills specification allows 1024. Growth OS Lite descriptions include both
-  Swedish and English trigger phrases and are longer than 200 characters. If an upload is rejected
-  for its description, open an issue on GitHub; meanwhile Claude Code and the plugin install are
-  unaffected.
+- **Upload rejected?** Every Growth OS Lite description is under the Help Center's 200-character
+  limit and the frontmatter uses only the accepted keys. If an upload is still rejected, open an
+  issue on GitHub with the exact error message.
 - **Websites that block page reading.** Some sites (and review platforms) block Claude's web
   fetch. The skill then asks you to paste the text or upload a screenshot.

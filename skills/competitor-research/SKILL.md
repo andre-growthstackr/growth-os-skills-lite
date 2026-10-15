@@ -1,17 +1,6 @@
 ---
 name: competitor-research
-description: >
-  Competitive intelligence that produces a competitor baseline plus a rerunnable snapshot
-  you can compare against later. Builds a competitor matrix (positioning, target,
-  pricing, features, ad angles), ad-library intelligence from Meta/LinkedIn/Google with
-  an evidence log, SEO and content landscape, customer sentiment mining, pricing
-  landscape, battle cards, and a find-the-gap analysis with exactly three openings
-  nobody in the category addresses. Takes a company or dimension as argument
-  (ads, seo, content, pricing). Use when user says "konkurrentanalys", "analysera
-  konkurrenterna", "kartlägg konkurrenter", "konkurrent-matris", "vad annonserar
-  konkurrenterna", "hitta luckan", "vad har ändrats hos konkurrenterna", "competitor
-  research", "competitor analysis", "competitor matrix", "check their ads", "competitive
-  gaps", "battle cards", or asks what changed since the last competitor run.
+description: "Competitor profiles, pricing, review sentiment, messaging and ad gaps. Use for: analysera våra konkurrenter, konkurrentanalys, competitor research, analyze our competitors."
 metadata:
   author: GrowthStackr
   version: 1.0.0

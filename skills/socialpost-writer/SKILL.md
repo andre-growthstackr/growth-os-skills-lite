@@ -1,17 +1,6 @@
 ---
 name: socialpost-writer
-description: >
-  Writes the copy for a single image post (hook + body + CTA) and adapts that one
-  post to each channel's native norms — LinkedIn, Instagram, and X/Twitter — instead
-  of writing channel-first. Builds from your content pillars and the reader's own
-  words in voice-of-customer.md, runs the /copywriting frameworks for the hook and
-  body, and finishes with a /humanizer pass so nothing reads AI-written. Enforces
-  brand negative rules (banned AI words, forbidden characters). Use when user says
-  "skriv ett LinkedIn-inlägg", "bildinlägg-copy", "skriv en caption till bilden",
-  "text till mitt inlägg", "social post copy", "write a LinkedIn post", "image post
-  caption", "Instagram caption", "X post", "hook body cta for a post", "socialpost",
-  "/socialpost-writer". Content-type before channel. Does NOT design the image,
-  build carousels, or write long video scripts.
+description: "LinkedIn and social posts built from your customers' words. Use for: skriv ett LinkedIn-inlägg, skriv ett inlägg, write a LinkedIn post, write a social post."
 metadata:
   author: GrowthStackr
   version: 1.0.0

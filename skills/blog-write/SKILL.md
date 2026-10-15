@@ -1,18 +1,6 @@
 ---
 name: blog-write
-description: >
-  Write new blog articles from scratch, optimized for Google rankings AND AI
-  citations (ChatGPT, Perplexity, Claude, Gemini, AI Overviews). Writes an inline
-  brief, selects a content template, writes answer-first sections with a Key
-  Takeaways box, sourced statistics, citation capsules, information-gain markers
-  (own data / first-hand experience / unique insight), optional inline SVG charts,
-  image placeholders, an FAQ section, and internal-linking zones. Enforces
-  information gain and a humanizer + fact-check pass before delivery. Human
-  approves the outline before writing and the draft before it is used. Outputs
-  markdown, MDX, or HTML. Use when user says "write blog", "skriv blogg", "new
-  blog post", "nytt blogginlägg", "create article", "skapa artikel", "write
-  about", "skriv om", "draft blog", "utkast blogg", "generate blog post",
-  "generera blogginlägg", "blog article".
+description: "Writes a researched, sourced blog post ready for Google and AI answers. Use for: skriv ett blogginlägg, skriv en artikel, write a blog post, write an article about."
 metadata:
   author: GrowthStackr
   version: 1.0.0

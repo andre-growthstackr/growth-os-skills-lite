@@ -1,15 +1,6 @@
 ---
 name: brand-positioning
-description: >
-  Market positioning strategy using April Dunford's 5+1 framework, enriched with
-  JTBD discovery, Moore's positioning statement, and Neumeier's Onliness Test.
-  Inherits ICP and competitor research as inputs, runs competitive-alternatives
-  and market-category research, and produces a complete positioning document,
-  positioning statements, competitive alternatives map, category analysis, and
-  messaging implications. Use when user says "positionering", "hur ska vi
-  positionera oss", "differentiera oss från konkurrenterna", "hitta vår unika
-  position", "positioneringsdokument", "positioning", "positioning statement",
-  "differentiation strategy", "unique value proposition", "market category".
+description: "Positioning from real alternatives: category, differentiation, messaging hierarchy. Use for: positionera oss, differentiera oss, sharpen our positioning, positioning strategy."
 metadata:
   author: GrowthStackr
   version: 1.0.0

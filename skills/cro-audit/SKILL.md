@@ -1,16 +1,6 @@
 ---
 name: cro-audit
-description: >
-  Conversion audit of a landing page or funnel through the three-friction lens —
-  interactive, cognitive, and emotional friction — weighed against perceived
-  value, plus clarity, trust, and CTA quality. Works from a URL or from uploaded
-  screenshots. Produces a scored health report (grade per dimension) and a
-  prioritized, impact-ordered fix list. No argument = audit one page end to end;
-  an argument scopes a URL, a funnel, or a single lens. Use when user says "CRO
-  audit", "konverteringsaudit", "granska min landningssida", "audit this page",
-  "why isn't this page converting", "varför konverterar inte sidan", "friction
-  audit", "friktionsanalys", "conversion audit", "optimera konvertering",
-  "review my funnel", "granska funneln", "CRO review".
+description: "Scored conversion audit of a page or funnel from a URL or screenshots. Use for: varför konverterar inte sidan, CRO-granskning, CRO audit, why isn't this page converting."
 metadata:
   author: GrowthStackr
   version: 1.0.0

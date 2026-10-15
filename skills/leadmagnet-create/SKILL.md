@@ -1,13 +1,6 @@
 ---
 name: leadmagnet-create
-description: >
-  Produces a chosen lead magnet: the asset itself (checklist, guide, cheat sheet,
-  template, swipe file, email mini-course, or a build-ready spec for a quiz or
-  calculator), plus an opt-in page outline and a 3-email delivery sequence.
-  Takes a decided magnet concept and delivers it as finished, downloadable content.
-  Use when user says "skapa lead magneten", "skapa leadmagneten", "bygg min lead magnet", "producera
-  checklistan", "skriv lead magneten", "create the lead magnet", "build my lead
-  magnet", "produce the checklist", "write the lead magnet", "ship the lead magnet".
+description: "Produces the chosen lead magnet plus opt-in outline and delivery emails. Use for: skapa leadmagneten, bygg min lead magnet, create the lead magnet, build my lead magnet."
 metadata:
   author: GrowthStackr
   version: 1.0.0

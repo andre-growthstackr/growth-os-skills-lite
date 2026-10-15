@@ -1,13 +1,6 @@
 ---
 name: thought-leadership
-description: >
-  Builds an executive authority program from opinions the exec actually holds: a POV
-  mining interview, a contrarian-but-defensible stance test, a format ladder from
-  LinkedIn posts to essays and talk angles, and ghostwriting rules built on a diction
-  profile from real writing samples. Delivers the program plus first LinkedIn post
-  drafts in chat and as a downloadable .md. Use when user says "tankeledarskap",
-  "bygg vd:ns varumärke", "positionera vår grundare", "thought leadership",
-  "executive branding", "ghostwrite for our CEO".
+description: "Founder-led LinkedIn authority: point of view, stances, post drafts. Use for: bygg thought leadership, positionera mig som expert, thought leadership, founder-led content."
 metadata:
   author: GrowthStackr
   version: 1.0.0

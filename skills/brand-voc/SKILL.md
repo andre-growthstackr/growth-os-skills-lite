@@ -1,17 +1,6 @@
 ---
 name: brand-voc
-description: >
-  Run a full Voice of Customer (VoC) research program — ICP-grounded competitor
-  selection, multi-channel mining of G2, Capterra, Trustpilot, Reddit, YouTube
-  comments, forums and the user's own sales calls, surveys and support data,
-  verbatim quote tagging, and synthesis into pains, value drivers,
-  objections, triggers, and a customer language dictionary with recommendations
-  per surface. Delivers voice-of-customer.md, the context file every
-  copy-producing Growth OS skill inherits. Use when user says "voice of
-  customer", "VoC", "kundens röst", "kundcitat", "kundens språk", "mine
-  reviews", "review mining", "gräv i recensioner", "vad säger kunderna
-  egentligen", "customer language", "find the words customers use", or "bygg
-  en VoC-rapport".
+description: "Mines customers' own words (pains, objections, triggers) into voice-of-customer.md. Use for: ta fram Voice of Customer, kundens egna ord, voice of customer, VoC research."
 metadata:
   author: GrowthStackr
   version: 1.0.0

@@ -1,15 +1,6 @@
 ---
 name: growth-os-lite-start
-description: >
-  Start here for Growth OS Lite. Explains Growth OS in five lines, recommends a
-  Claude project, hands out the four empty context files (business profile, ICP,
-  Voice of Customer, offer), shows the setup order, and routes any marketing or
-  lead-gen goal to the right Lite skill — or says honestly when it is a
-  full-version feature. Use when user says "kom igång med Growth OS", "sätt upp
-  Growth OS", "vilken skill ska jag använda", "vad kan Growth OS göra", "hjälp
-  med Growth OS", "jag behöver fler leads", "var ska jag börja", "set up Growth
-  OS", "get started with Growth OS", "what can Growth OS do", "which skill should
-  I use", "Growth OS help", "where do I start".
+description: "Start here: Growth OS Lite setup, the 4 context files, and which skill to use. Use for: kom igång med Growth OS, vilken skill ska jag använda, set up Growth OS, what can Growth OS do."
 metadata:
   author: GrowthStackr
   version: 1.0.0

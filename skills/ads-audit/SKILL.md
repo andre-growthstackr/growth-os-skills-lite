@@ -1,16 +1,6 @@
 ---
 name: ads-audit
-description: >
-  Source-grounded, read-only paid-advertising audit — all active ad platforms at
-  once or scoped to one (Meta, Google, LinkedIn, TikTok, Microsoft, YouTube,
-  Apple). Works from the exports and screenshots you upload, reviews each
-  platform in turn plus cross-platform tracking, budget, creative, landing-page
-  and policy checks, scores account health with evidence coverage, and returns a
-  prioritized fix list. Never launches, edits, pauses, or reallocates spend. Use
-  when user says "audit my ads", "granska mina annonser", "full ad check",
-  "PPC-audit", "account health check", "kontohälsa", "analyze my ads",
-  "analysera mitt annonskonto", "audit Meta", "granska Google Ads", "paid media
-  audit", "annonsgranskning", "spend audit", "tracking audit".
+description: "Read-only ads audit (Meta, Google, LinkedIn, TikTok, Microsoft, YouTube, Apple) from exports, scored. Use for: granska mina annonser, annonsgranskning, audit my ads, PPC audit."
 metadata:
   author: GrowthStackr
   version: 1.0.0
