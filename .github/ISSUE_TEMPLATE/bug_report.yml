@@ -1,0 +1,57 @@
+name: Bug report
+description: A skill did something wrong, broke, or could not be uploaded.
+title: "[bug] <skill-name>: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - growth-os-lite-start
+        - business-audit
+        - icp-builder
+        - brand-voc
+        - brand-positioning
+        - brand-offer
+        - competitor-research
+        - copywriting
+        - humanizer
+        - website-audit
+        - seo-audit
+        - seo-geo
+        - leadmagnet-ideate
+        - leadmagnet-create
+        - cro-audit
+        - blog-write
+        - socialpost-writer
+        - content-repurpose
+        - thought-leadership
+        - ads-audit
+        - Install / upload / zip
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Where did you run it?
+      options:
+        - Claude.ai (web)
+        - Claude Desktop
+        - Claude Code
+        - ChatGPT / Codex
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Paste the prompt you used and the relevant part of the answer. Remove anything confidential, including credentials.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "1.0.0"

@@ -1,0 +1,20 @@
+name: Skill request
+description: Suggest a new skill or an improvement to an existing one.
+title: "[request] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to get done?
+      description: Describe the marketing or lead-gen task in your own words (Swedish or English).
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What do you do today instead?
+  - type: input
+    id: skill
+    attributes:
+      label: Existing skill this relates to (if any)

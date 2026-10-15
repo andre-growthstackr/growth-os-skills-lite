@@ -1,0 +1,17 @@
+{
+  "name": "growth-os-skills-lite",
+  "version": "1.0.0",
+  "description": "Growth OS Lite — 20 free standalone skills for B2B marketing and lead generation: business audit, ICP, Voice of Customer, positioning, offer, competitor research, copywriting, website/SEO/GEO audits, lead magnets, CRO, LinkedIn and blog content, and an ads audit. Context-inheriting, runs directly in Claude, and always asks before it uses an external service. The free edition of GrowthStackr's Growth OS Skills Pack.",
+  "author": {
+    "name": "GrowthStackr",
+    "url": "https://www.growthstackr.io/"
+  },
+  "homepage": "https://github.com/andre-growthstackr/growth-os-skills-lite",
+  "repository": "https://github.com/andre-growthstackr/growth-os-skills-lite",
+  "license": "MIT",
+  "keywords": [
+    "growth-os", "b2b-marketing", "lead-generation", "agent-skills", "claude-skills",
+    "icp", "voice-of-customer", "positioning", "copywriting", "seo", "geo", "lead-magnets",
+    "cro", "content-marketing", "linkedin", "paid-ads", "svenska"
+  ]
+}

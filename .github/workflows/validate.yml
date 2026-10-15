@@ -1,0 +1,57 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate standalone-skill rules and inventory
+        run: node .github/scripts/validate.mjs
+      - name: Build skill zips
+        run: node .github/scripts/build-zips.mjs
+      - name: Check zip layout (skill folder at zip root)
+        run: |
+          set -e
+          n=0
+          for z in dist/*.zip; do
+            [ "$(basename "$z")" = "growth-os-lite-all.zip" ] && continue
+            s=$(basename "$z" .zip)
+            unzip -l "$z" | grep -q " $s/SKILL.md$" || { echo "bad layout: $z"; exit 1; }
+            n=$((n+1))
+          done
+          [ "$n" -eq 20 ] || { echo "expected 20 skill zips, got $n"; exit 1; }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: growth-os-lite-zips
+          path: dist/*.zip
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: growth-os-lite-zips
+          path: dist
+      - name: Create or update the GitHub release with the zips
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1 \
+            || gh release create "$TAG" --repo "$REPO" --title "Growth OS Lite $TAG" --generate-notes
+          gh release upload "$TAG" dist/*.zip --repo "$REPO" --clobber

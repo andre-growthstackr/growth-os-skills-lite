@@ -1,0 +1,28 @@
+{
+  "name": "growth-os-lite",
+  "owner": {
+    "name": "GrowthStackr",
+    "url": "https://www.growthstackr.io/"
+  },
+  "metadata": {
+    "description": "GrowthStackr's Growth OS Lite — free B2B marketing and lead-generation skills that run directly in Claude.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "growth-os-skills-lite",
+      "source": "./",
+      "description": "20 free Growth OS skills across brand, web, leads, conversion, content, and ads. Standalone, context-inheriting, and permission-first for external tools.",
+      "version": "1.0.0",
+      "author": { "name": "GrowthStackr" },
+      "homepage": "https://github.com/andre-growthstackr/growth-os-skills-lite",
+      "repository": "https://github.com/andre-growthstackr/growth-os-skills-lite",
+      "license": "MIT",
+      "category": "marketing",
+      "keywords": [
+        "growth-os", "b2b-marketing", "lead-generation", "seo", "copywriting",
+        "content-marketing", "lead-magnets", "cro", "paid-ads", "icp"
+      ]
+    }
+  ]
+}

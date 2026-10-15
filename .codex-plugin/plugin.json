@@ -1,0 +1,44 @@
+{
+  "name": "growth-os-skills-lite",
+  "version": "1.0.0",
+  "description": "GrowthStackr's free Growth OS Lite: 20 standalone skills for B2B marketing and lead generation across brand, web, leads, conversion, content, and ads.",
+  "author": {
+    "name": "GrowthStackr",
+    "url": "https://www.growthstackr.io/"
+  },
+  "homepage": "https://www.growthstackr.io/",
+  "repository": "https://github.com/andre-growthstackr/growth-os-skills-lite",
+  "license": "MIT",
+  "keywords": [
+    "growth-os",
+    "b2b-marketing",
+    "lead-generation",
+    "brand",
+    "seo",
+    "content-marketing",
+    "lead-magnets",
+    "conversion-optimization"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Growth OS Lite",
+    "shortDescription": "Free B2B growth skills: ICP, offer, SEO, content, CRO",
+    "longDescription": "Build your business profile, ICP, Voice of Customer and offer once, then let every skill inherit them: copywriting, website, SEO and GEO audits, lead magnets, CRO, LinkedIn and blog content, and an ads audit. External tools are always optional and asked for first.",
+    "developerName": "GrowthStackr",
+    "category": "Productivity",
+    "capabilities": [
+      "Research",
+      "Analyze",
+      "Write"
+    ],
+    "websiteURL": "https://www.growthstackr.io/",
+    "privacyPolicyURL": "https://www.growthstackr.io/integritetspolicy",
+    "termsOfServiceURL": "https://www.growthstackr.io/terms-and-conditions",
+    "defaultPrompt": [
+      "Set up Growth OS Lite and tell me where to start.",
+      "Build my ICP.",
+      "Audit my website for SEO and conversion."
+    ],
+    "brandColor": "#FF6B4A"
+  }
+}
